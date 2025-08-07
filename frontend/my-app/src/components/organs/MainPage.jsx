@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../molecules/Navbar";
 import planeImage from "../../../public/airplaneImage.png";
+import "../../styles/MainPage.css";
 
 function MainPage(){
     return(

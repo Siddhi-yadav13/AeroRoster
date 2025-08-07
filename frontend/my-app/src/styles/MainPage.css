@@ -27,3 +27,39 @@
 .navbar-links li a:hover {
   text-decoration: underline;
 }
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90vh;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.left-section {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.left-section h1 {
+  font-size: 3rem;
+  color: #001966;
+  margin-bottom: 10px;
+}
+
+.left-section p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.right-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.right-section img {
+  max-width: 100%;
+  height: auto;
+}
