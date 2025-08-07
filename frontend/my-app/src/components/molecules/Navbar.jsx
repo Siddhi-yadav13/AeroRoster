@@ -1,5 +1,6 @@
-import react from "react";
+import React from "react";
 import "../../styles/MainPage.css";
+import logo from "../../../public/goindigo-img.png";
 
 function Navbar(){
     return(
