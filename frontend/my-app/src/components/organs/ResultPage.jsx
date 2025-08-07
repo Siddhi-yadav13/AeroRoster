@@ -7,7 +7,7 @@ import Card from "../molecules/Card";
 function ResultPage() {
   return (
     <div className="Result-full-page">
-        <Heading />
+        <Heading title="" />
         <div className="content">
            <div>
            <div><Graph/></div>

@@ -1,12 +1,12 @@
 import react from "react";
 import "../../styles/Graph.css";
 
-function bigCard(){
+function Graph(){
     return(
-        <div className="big-card">
+        <div className="graph">
             
         </div>
     );
 }
 
-export default bigCard;
+export default Graph;

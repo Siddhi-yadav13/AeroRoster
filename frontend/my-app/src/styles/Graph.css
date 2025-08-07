@@ -1,0 +1,8 @@
+/* graph card styling */
+
+.graph{
+    width: 5rem;
+    height: 5rem;
+    border: 0.1rem solid black;
+    border-radius: 0.6rem;
+}
