@@ -1,12 +1,12 @@
 import react from "react";
-import "../../styles/Card.css";
+import "../../styles/bigCard.css";
 
-function Card(){
+function bigCard(){
     return(
-        <div>
+        <div className="big-card">
             
         </div>
     );
 }
 
-export default Card;
+export default bigCard;

@@ -1,0 +1,12 @@
+/* Card styling */
+.big-card{
+    width: 25rem;
+    height: 15rem;
+    background-color: #2a2a7a;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    color: white;
+    text-align: left;
+}
