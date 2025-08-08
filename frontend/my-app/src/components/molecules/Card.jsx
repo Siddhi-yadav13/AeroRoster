@@ -1,13 +1,20 @@
 import React from "react";
-import "../../styles/bigCard.css";
+import "../../styles/Card.css";
 import "../../styles/stationCard.css";
 
-function BigCard() {
-  return (
-    <div className="big-card">
-    </div>
-  );
-}
+const BigCard = ({ title, value }) => (
+  <div className="big-card">
+    <p>{title}:</p>
+    <h3>{value}</h3>
+  </div>
+);
+
+const SmallCard = ({ title1, value1, title2, value2 }) => (
+  <div className="small-card">
+    <p>{title1}: {value1}</p>
+    <p>{title2}: {value2}</p>
+  </div>
+);
 
 function StationCard({ airport }) {
   return (
@@ -18,5 +25,4 @@ function StationCard({ airport }) {
   );
 }
 
-export default BigCard;
-export { StationCard };
+export { BigCard, SmallCard, StationCard };

@@ -1,8 +1,11 @@
-/* graph card styling */
+/* Graph Container */
 
-.graph{
-    width: 5rem;
-    height: 5rem;
-    border: 0.1rem solid black;
-    border-radius: 0.6rem;
+.graph-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  border: 0.1rem solid #014ba0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  height: 16rem;
+  margin-left: 5rem;
 }

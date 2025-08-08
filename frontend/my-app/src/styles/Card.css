@@ -1,0 +1,25 @@
+/* Big Card */
+.big-card {
+  background-color: #001966;
+  color: white;
+  padding: 2rem;
+  border-radius: 0.6rem;
+  font-size: 1.3rem;
+  height: 2rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 0rem 3rem 0rem 3rem;
+}
+
+/* Small Card */
+.small-card {
+  background-color: #001966;
+  color: white;
+  padding: 2rem;
+  border-radius: 0.6rem;
+  font-size: 1.3rem;
+  height: 5rem;
+  padding-top: 0;
+  margin: 0rem 3rem 0rem 3rem;
+}
