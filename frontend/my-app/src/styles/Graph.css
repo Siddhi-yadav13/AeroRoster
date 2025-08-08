@@ -1,11 +1,33 @@
-/* Graph Container */
-
 .graph-container {
-  background-color: white;
+  background-color: #001966;
   border-radius: 10px;
   padding: 10px;
-  border: 0.1rem solid #014ba0;
+  /* padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%; */
+  border: 0.1rem solid #001966;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  height: 16rem;
+  /* height: 18rem; */
   margin-left: 5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* width: 70%; */
+  width: fit-content;
+  height: auto;
 }
+
+.graph-title {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.graph-image {
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 4px;
+  /* margin: 10%; */
+}
+

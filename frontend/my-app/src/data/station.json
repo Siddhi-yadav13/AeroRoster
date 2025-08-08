@@ -1,92 +1,452 @@
 [
-  {"code": "IXA", "name": "Agartala"},
-  {"code": "AGX", "name": "Agatti"},
-  {"code": "AGR", "name": "Agra"},
-  {"code": "AMD", "name": "Ahmedabad"},
-  {"code": "AJL", "name": "Aizawl"},
-  {"code": "ATQ", "name": "Amritsar"},
-  {"code": "IXU", "name": "Aurangabad"},
-  {"code": "AYJ", "name": "Ayodhya"},
-  {"code": "IXB", "name": "Bagdogra"},
-  {"code": "BEK", "name": "Bareilly"},
-  {"code": "IXG", "name": "Belagavi"},
-  {"code": "BLR", "name": "Bengaluru"},
-  {"code": "BHO", "name": "Bhopal"},
-  {"code": "BBI", "name": "Bhubaneswar"},
-  {"code": "IXC", "name": "Chandigarh"},
-  {"code": "MAA", "name": "Chennai"},
-  {"code": "CJB", "name": "Coimbatore"},
-  {"code": "DBR", "name": "Darbhanga"},
-  {"code": "DED", "name": "Dehradun"},
-  {"code": "DEL", "name": "Delhi"},
-  {"code": "DGH", "name": "Deoghar"},
-  {"code": "DHM", "name": "Dharamshala"},
-  {"code": "DIB", "name": "Dibrugarh"},
-  {"code": "DMU", "name": "Dimapur"},
-  {"code": "DIU", "name": "Diu"},
-  {"code": "RDP", "name": "Durgapur"},
-  {"code": "GAY", "name": "Gaya"},
-  {"code": "GOI", "name": "Goa"},
-  {"code": "GDB", "name": "Gondia"},
-  {"code": "GOP", "name": "Gorakhpur"},
-  {"code": "GAU", "name": "Guwahati"},
-  {"code": "GWL", "name": "Gwalior"},
-  {"code": "HSR", "name": "Hirasar"},
-  {"code": "HBX", "name": "Hubli"},
-  {"code": "HYD", "name": "Hyderabad"},
-  {"code": "IMF", "name": "Imphal"},
-  {"code": "IDR", "name": "Indore"},
-  {"code": "HGI", "name": "Itanagar"},
-  {"code": "JLR", "name": "Jabalpur"},
-  {"code": "JGB", "name": "Jagdalpur"},
-  {"code": "JAI", "name": "Jaipur"},
-  {"code": "JSA", "name": "Jaisalmer"},
-  {"code": "IXJ", "name": "Jammu"},
-  {"code": "JRG", "name": "Jharsuguda"},
-  {"code": "JDH", "name": "Jodhpur"},
-  {"code": "JRH", "name": "Jorhat"},
-  {"code": "CDP", "name": "Kadapa"},
-  {"code": "CNN", "name": "Kannur"},
-  {"code": "KNU", "name": "Kanpur"},
-  {"code": "HJR", "name": "Khajuraho"},
-  {"code": "COK", "name": "Kochi"},
-  {"code": "KLH", "name": "Kolhapur"},
-  {"code": "CCU", "name": "Kolkata"},
-  {"code": "CCJ", "name": "Kozhikode"},
-  {"code": "KJB", "name": "Kurnool"},
-  {"code": "IXL", "name": "Leh"},
-  {"code": "LKO", "name": "Lucknow"},
-  {"code": "IXM", "name": "Madurai"},
-  {"code": "IXE", "name": "Mangaluru"},
-  {"code": "BOM", "name": "Mumbai"},
-  {"code": "MYQ", "name": "Mysuru"},
-  {"code": "NAG", "name": "Nagpur"},
-  {"code": "ISK", "name": "Nashik"},
-  {"code": "GOX", "name": "North Goa"},
-  {"code": "PGH", "name": "Pantnagar"},
-  {"code": "PAT", "name": "Patna"},
-  {"code": "IXZ", "name": "Port Blair"},
-  {"code": "IXD", "name": "Prayagraj"},
-  {"code": "PNY", "name": "Puducherry"},
-  {"code": "PNQ", "name": "Pune"},
-  {"code": "RPR", "name": "Raipur"},
-  {"code": "RJA", "name": "Rajahmundry"},
-  {"code": "RAJ", "name": "Rajkot"},
-  {"code": "IXR", "name": "Ranchi"},
-  {"code": "SXV", "name": "Salem"},
-  {"code": "SHL", "name": "Shillong"},
-  {"code": "SAG", "name": "Shirdi"},
-  {"code": "RQY", "name": "Shivamogga"},
-  {"code": "IXS", "name": "Silchar"},
-  {"code": "SXR", "name": "Srinagar"},
-  {"code": "STV", "name": "Surat"},
-  {"code": "TRV", "name": "Thiruvananthapuram"},
-  {"code": "TRZ", "name": "Tiruchirappalli"},
-  {"code": "TIR", "name": "Tirupati"},
-  {"code": "TCR", "name": "Tuticorin"},
-  {"code": "UDR", "name": "Udaipur"},
-  {"code": "BDQ", "name": "Vadodara"},
-  {"code": "VNS", "name": "Varanasi"},
-  {"code": "VGA", "name": "Vijayawada"},
-  {"code": "VTZ", "name": "Visakhapatnam"}
+  {
+    "code": "IXA",
+    "name": "Agartala",
+    "region": "East"
+  },
+  {
+    "code": "AGX",
+    "name": "Agatti",
+    "region": "South"
+  },
+  {
+    "code": "AGR",
+    "name": "Agra",
+    "region": "North"
+  },
+  {
+    "code": "AMD",
+    "name": "Ahmedabad",
+    "region": "West"
+  },
+  {
+    "code": "AJL",
+    "name": "Aizawl",
+    "region": "East"
+  },
+  {
+    "code": "ATQ",
+    "name": "Amritsar",
+    "region": "North"
+  },
+  {
+    "code": "IXU",
+    "name": "Aurangabad",
+    "region": "South"
+  },
+  {
+    "code": "AYJ",
+    "name": "Ayodhya",
+    "region": "Unknown"
+  },
+  {
+    "code": "IXB",
+    "name": "Bagdogra",
+    "region": "East"
+  },
+  {
+    "code": "BEK",
+    "name": "Bareilly",
+    "region": "North"
+  },
+  {
+    "code": "IXG",
+    "name": "Belagavi",
+    "region": "West"
+  },
+  {
+    "code": "BLR",
+    "name": "Bengaluru",
+    "region": "South"
+  },
+  {
+    "code": "BHO",
+    "name": "Bhopal",
+    "region": "West"
+  },
+  {
+    "code": "BBI",
+    "name": "Bhubaneswar",
+    "region": "East"
+  },
+  {
+    "code": "IXC",
+    "name": "Chandigarh",
+    "region": "North"
+  },
+  {
+    "code": "MAA",
+    "name": "Chennai",
+    "region": "South"
+  },
+  {
+    "code": "CJB",
+    "name": "Coimbatore",
+    "region": "South"
+  },
+  {
+    "code": "DBR",
+    "name": "Darbhanga",
+    "region": "North"
+  },
+  {
+    "code": "DED",
+    "name": "Dehradun",
+    "region": "North"
+  },
+  {
+    "code": "DEL",
+    "name": "Delhi",
+    "region": "North"
+  },
+  {
+    "code": "DGH",
+    "name": "Deoghar",
+    "region": "East"
+  },
+  {
+    "code": "DHM",
+    "name": "Dharamshala",
+    "region": "North"
+  },
+  {
+    "code": "DIB",
+    "name": "Dibrugarh",
+    "region": "East"
+  },
+  {
+    "code": "DMU",
+    "name": "Dimapur",
+    "region": "East"
+  },
+  {
+    "code": "DIU",
+    "name": "Diu",
+    "region": "Unknown"
+  },
+  {
+    "code": "RDP",
+    "name": "Durgapur",
+    "region": "East"
+  },
+  {
+    "code": "GAY",
+    "name": "Gaya",
+    "region": "North"
+  },
+  {
+    "code": "GOI",
+    "name": "Goa",
+    "region": "West"
+  },
+  {
+    "code": "GDB",
+    "name": "Gondia",
+    "region": "West"
+  },
+  {
+    "code": "GOP",
+    "name": "Gorakhpur",
+    "region": "North"
+  },
+  {
+    "code": "GAU",
+    "name": "Guwahati",
+    "region": "East"
+  },
+  {
+    "code": "GWL",
+    "name": "Gwalior",
+    "region": "West"
+  },
+  {
+    "code": "HSR",
+    "name": "Hirasar",
+    "region": "West"
+  },
+  {
+    "code": "HBX",
+    "name": "Hubli",
+    "region": "West"
+  },
+  {
+    "code": "HYD",
+    "name": "Hyderabad",
+    "region": "South"
+  },
+  {
+    "code": "IMF",
+    "name": "Imphal",
+    "region": "East"
+  },
+  {
+    "code": "IDR",
+    "name": "Indore",
+    "region": "West"
+  },
+  {
+    "code": "HGI",
+    "name": "Itanagar",
+    "region": "East"
+  },
+  {
+    "code": "JLR",
+    "name": "Jabalpur",
+    "region": "West"
+  },
+  {
+    "code": "JGB",
+    "name": "Jagdalpur",
+    "region": "West"
+  },
+  {
+    "code": "JAI",
+    "name": "Jaipur",
+    "region": "West"
+  },
+  {
+    "code": "JSA",
+    "name": "Jaisalmer",
+    "region": "West"
+  },
+  {
+    "code": "IXJ",
+    "name": "Jammu",
+    "region": "North"
+  },
+  {
+    "code": "JRG",
+    "name": "Jharsuguda",
+    "region": "East"
+  },
+  {
+    "code": "JDH",
+    "name": "Jodhpur",
+    "region": "West"
+  },
+  {
+    "code": "JRH",
+    "name": "Jorhat",
+    "region": "East"
+  },
+  {
+    "code": "CDP",
+    "name": "Kadapa",
+    "region": "South"
+  },
+  {
+    "code": "CNN",
+    "name": "Kannur",
+    "region": "South"
+  },
+  {
+    "code": "KNU",
+    "name": "Kanpur",
+    "region": "North"
+  },
+  {
+    "code": "HJR",
+    "name": "Khajuraho",
+    "region": "North"
+  },
+  {
+    "code": "COK",
+    "name": "Kochi",
+    "region": "South"
+  },
+  {
+    "code": "KLH",
+    "name": "Kolhapur",
+    "region": "West"
+  },
+  {
+    "code": "CCU",
+    "name": "Kolkata",
+    "region": "East"
+  },
+  {
+    "code": "CCJ",
+    "name": "Kozhikode",
+    "region": "South"
+  },
+  {
+    "code": "KJB",
+    "name": "Kurnool",
+    "region": "South"
+  },
+  {
+    "code": "IXL",
+    "name": "Leh",
+    "region": "North"
+  },
+  {
+    "code": "LKO",
+    "name": "Lucknow",
+    "region": "North"
+  },
+  {
+    "code": "IXM",
+    "name": "Madurai",
+    "region": "South"
+  },
+  {
+    "code": "IXE",
+    "name": "Mangaluru",
+    "region": "South"
+  },
+  {
+    "code": "BOM",
+    "name": "Mumbai",
+    "region": "West"
+  },
+  {
+    "code": "MYQ",
+    "name": "Mysuru",
+    "region": "South"
+  },
+  {
+    "code": "NAG",
+    "name": "Nagpur",
+    "region": "West"
+  },
+  {
+    "code": "ISK",
+    "name": "Nashik",
+    "region": "West"
+  },
+  {
+    "code": "GOX",
+    "name": "North Goa",
+    "region": "West"
+  },
+  {
+    "code": "PGH",
+    "name": "Pantnagar",
+    "region": "North"
+  },
+  {
+    "code": "PAT",
+    "name": "Patna",
+    "region": "East"
+  },
+  {
+    "code": "IXZ",
+    "name": "Port Blair",
+    "region": "East"
+  },
+  {
+    "code": "IXD",
+    "name": "Prayagraj",
+    "region": "North"
+  },
+  {
+    "code": "PNY",
+    "name": "Puducherry",
+    "region": "South"
+  },
+  {
+    "code": "PNQ",
+    "name": "Pune",
+    "region": "West"
+  },
+  {
+    "code": "RPR",
+    "name": "Raipur",
+    "region": "Unknown"
+  },
+  {
+    "code": "RJA",
+    "name": "Rajahmundry",
+    "region": "South"
+  },
+  {
+    "code": "RAJ",
+    "name": "Rajkot",
+    "region": "West"
+  },
+  {
+    "code": "IXR",
+    "name": "Ranchi",
+    "region": "East"
+  },
+  {
+    "code": "SXV",
+    "name": "Salem",
+    "region": "South"
+  },
+  {
+    "code": "SHL",
+    "name": "Shillong",
+    "region": "East"
+  },
+  {
+    "code": "SAG",
+    "name": "Shirdi",
+    "region": "West"
+  },
+  {
+    "code": "RQY",
+    "name": "Shivamogga",
+    "region": "South"
+  },
+  {
+    "code": "IXS",
+    "name": "Silchar",
+    "region": "East"
+  },
+  {
+    "code": "SXR",
+    "name": "Srinagar",
+    "region": "North"
+  },
+  {
+    "code": "STV",
+    "name": "Surat",
+    "region": "West"
+  },
+  {
+    "code": "TRV",
+    "name": "Thiruvananthapuram",
+    "region": "South"
+  },
+  {
+    "code": "TRZ",
+    "name": "Tiruchirappalli",
+    "region": "South"
+  },
+  {
+    "code": "TIR",
+    "name": "Tirupati",
+    "region": "South"
+  },
+  {
+    "code": "TCR",
+    "name": "Tuticorin",
+    "region": "South"
+  },
+  {
+    "code": "UDR",
+    "name": "Udaipur",
+    "region": "West"
+  },
+  {
+    "code": "BDQ",
+    "name": "Vadodara",
+    "region": "West"
+  },
+  {
+    "code": "VNS",
+    "name": "Varanasi",
+    "region": "North"
+  },
+  {
+    "code": "VGA",
+    "name": "Vijayawada",
+    "region": "South"
+  },
+  {
+    "code": "VTZ",
+    "name": "Visakhapatnam",
+    "region": "East"
+  }
 ]

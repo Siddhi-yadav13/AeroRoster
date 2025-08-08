@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../molecules/Navbar";
 import planeImage from "../../../public/airplaneImage.png";
 import "../../styles/MainPage.css";
+import StationPage from "./StationPage";
 
 function MainPage(){
     return(
@@ -16,6 +17,7 @@ function MainPage(){
                     <img src={planeImage} alt="Plane" />
                 </div>
             </div>
+            <StationPage/>
         </div>
     )
 }
