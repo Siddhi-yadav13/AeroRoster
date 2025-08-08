@@ -13,7 +13,7 @@ function Navbar(){
                     <li><a href="#">Home</a></li>
                     <li><a href="#">How to Use</a></li>
                     <li><a href="#">Contact</a></li>
-                    <li><a href="#">Station</a></li>
+                    <li><a href="/stations">Station</a></li>
                 </ul>
             </nav>
         </div>

@@ -1,21 +1,18 @@
 import { useState } from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainPage from "./components/organs/MainPage";
-<<<<<<< HEAD
 import ResultPage from "./components/organs/ResultPage";
-=======
 import StationPage from './components/organs/StationPage';
->>>>>>> 9805900968de8312f1874421b9b09a5ebb7aaee4
 
 function App() {
   return (
-    <>
-      <MainPage/>
-<<<<<<< HEAD
-      <ResultPage/>
-=======
-      <StationPage/>
->>>>>>> 9805900968de8312f1874421b9b09a5ebb7aaee4
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/stations/:code" element={<ResultPage />} />
+        {/* Add more station routes as needed */}
+      </Routes>
+    </BrowserRouter>
   )
 }
 

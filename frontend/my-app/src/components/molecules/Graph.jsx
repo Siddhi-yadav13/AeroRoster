@@ -1,12 +1,12 @@
-import react from "react";
 import "../../styles/Graph.css";
 
-function Graph(){
-    return(
-        <div className="graph">
-            
-        </div>
-    );
-}
+const Graph = ({ data, title }) => {
+
+  return (
+    <div className="graph-container">
+      
+    </div>
+  );
+};
 
 export default Graph;

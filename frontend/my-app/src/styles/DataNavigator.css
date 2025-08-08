@@ -1,0 +1,30 @@
+/* Date Navigator */
+.date-navigator {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #014ba0;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  margin: 0rem 3rem 0rem 3rem;
+  height: 3rem;
+}
+
+.date-navigator button {
+  background-color: #014ba0;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.date-navigator input[type="date"] {
+  background-color: #014ba0;
+  color: white;
+  border: none;
+  text-align: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
