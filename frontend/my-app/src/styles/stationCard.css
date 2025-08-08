@@ -1,25 +1,55 @@
 .stationpage-container {
   padding: 24px;
-  margin: 40px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 40px 50px;
   background-color: #f9f9f9;
   border-radius: 12px;
 }
 
+/* Heading */
 .station-heading {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   margin-bottom: 16px;
   color: black;
 }
 
-.station-container {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr); /* 10 equal columns */
-  gap: 30px; /* evenly spaced horizontal + vertical gaps */
+.region-tabs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
 }
 
+/* region tab  */
+.region-tab {
+  padding: 0.6rem 1.2rem;
+  background-color: rgba(128, 128, 128, 0.2); /* light transparent gray */
+  color: black; /* Indigo blue text */
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-size: 20px;
+}
+
+.region-tab:hover {
+  background-color: rgba(128, 128, 128, 0.4);
+}
+
+.region-tab.active {
+  background-color: rgba(128, 128, 128, 0.6);
+  color: #001966;
+}
+
+
+/* Station Grid */
+.station-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 30px;
+}
+
+/* Station Card */
 .station-card {
   background-color: #001966;
   color: white;
@@ -27,10 +57,16 @@
   border-radius: 6px;
   text-align: center;
   white-space: nowrap;
-  width: 100%; /* fill grid cell */
-  box-sizing: border-box; /* ensures padding doesn't break symmetry */
+  width: 100%;
+  box-sizing: border-box;
+  transition: transform 0.2s ease;
 }
 
+.station-card:hover {
+  transform: scale(1.03);
+}
+
+/* Airport Info */
 .airport-code {
   font-size: 20px;
   font-weight: bold;

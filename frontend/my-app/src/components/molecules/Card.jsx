@@ -1,6 +1,8 @@
 import React from "react";
 import "../../styles/Card.css";
 import "../../styles/stationCard.css";
+import { useNavigate } from "react-router-dom";
+
 
 const BigCard = ({ title, value }) => (
   <div className="big-card">
@@ -16,13 +18,22 @@ const SmallCard = ({ title1, value1, title2, value2 }) => (
   </div>
 );
 
+
 function StationCard({ airport }) {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate(`/stations/${airport.code}`);
+  };
+
   return (
-    <div className="station-card">
+    <div className="station-card" onClick={handleClick}>
       <div className="airport-code">{airport.code}</div>
       <div className="airport-name">{airport.name}</div>
     </div>
   );
 }
+
+export default StationCard;
 
 export { BigCard, SmallCard, StationCard };

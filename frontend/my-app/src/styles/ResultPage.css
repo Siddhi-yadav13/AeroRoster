@@ -15,16 +15,21 @@
   font-size: 20px;
   border-radius: 6px;
   margin-bottom: 20px;
+  margin-right: 1rem;
 }
 
 .heading img {
-  height: 4rem;
+  margin-right: 1rem;
+  height: 3rem;
+  cursor: pointer;
 }
 
 .main-layout {
   display: flex;
   justify-content: space-between;
   gap: 20px;
+  align-items: flex-start;
+  margin-top: 3rem;
 }
 
 .left-section {

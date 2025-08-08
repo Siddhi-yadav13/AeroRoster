@@ -28,3 +28,13 @@
   font-size: 1.5rem;
   cursor: pointer;
 }
+
+
+input[type="date"] {
+  color: white;
+  background-color: transparent;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1); /* Inverts black to white */
+}
